@@ -1,4 +1,4 @@
-#creates a little pig latin translator
+#creates a little pig latin translator in PYTHON
 
 original = raw_input('Enter a word:')
 
