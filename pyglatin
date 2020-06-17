@@ -1,0 +1,15 @@
+#creates a little pig latin translator
+
+original = raw_input('Enter a word:')
+
+pyg = 'ay' #creates "ay" ending
+word = original.lower() #converts to lowercase
+first = word[0] #picks first character
+
+new_word = word + first + pyg #adds input, first letter to follow the input, and 'ay' at end
+new_word = new_word[1:len(new_word)] #removes first letter
+
+if len(new_word) > 0 and new_word.isalpha():
+  print new_word
+else:
+  print 'empty'
